@@ -35,7 +35,7 @@ public class Demo {
 	}
 	}
 	
-		@AfterMethod()
+	@AfterMethod	
 	public void tearDown()
 	{
 		driver.quit();
